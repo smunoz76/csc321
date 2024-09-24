@@ -12,9 +12,9 @@ char stringvar[] = "hello";
 char charvar = 'a';
 
 if (intvar>1){
-printf("Interger variable is greater than 1.\n");
+printf("Integer variable is greater than 1.\n");
 }else{
-printf("Interger variiable is not greater than1.\n");}
+printf("Interger variable is not greater than1.\n");}
 if (doublevar < 60.0){
 printf("The double variable is less than 60.\n");
 }else{
@@ -24,9 +24,9 @@ printf("String variable is hello.\n");
 }else {
 printf("String variable is not hello.\n");}
 if (charvar !='s'){
-printf("Character variable does not equat to the letter 's'.\n");}
+printf("Character variable does not equal to the letter 's'.\n");}
 else
 {
-printf("String variable equals to 's'.\n");}
+printf("Character variable equals to 's'.\n");}
   return EXIT_SUCCESS;
 }
