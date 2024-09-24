@@ -3,26 +3,30 @@
 
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 
 int main(void){
+int intvar = 2;
+double doublevar = 50.0;
+char stringvar[] = "hello";
+char charvar = 'a';
+
 if (intvar>1){
-System.out.println("Interger variable is greater than 1.");
+printf("Interger variable is greater than 1.\n");
 }else{
-System.out.println("Interger variiable is not greater than
-1.");}
+printf("Interger variiable is not greater than1.\n");}
 if (doublevar < 60.0){
-System.out.println("The double variable is less than 60");
+printf("The double variable is less than 60.\n");
 }else{
-System.out.println("The double variable in not less than 60");
-}
-if(stringvar.equals("hello")){
-System.out.println("String variable is hello.");
+printf("The double variable in not less than 60.\n");}
+if(strcmp(stringvar,"hello")==0 {
+printf("String variable is hello.\n");
 }else {
-System.out.println("String variable is not hello");}
+printf("String variable is not hello.\n");}
 if (charvar !='s'){
-System.out.println("Character variable does not equat to the letter 's'.");
+printf("Character variable does not equat to the letter 's'.\n");
 else
 {
-System.out.print("String variable equals to 's'.");}
+printf("String variable equals to 's'.\n");}
   return EXIT_SUCCESS;
 }
