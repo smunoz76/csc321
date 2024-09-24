@@ -24,4 +24,5 @@ System.out.println("Character variable does not equat to the letter 's'.");
 else
 {
 System.out.print("String variable equals to 's'.");}
+  return EXIT_SUCCESS;
 }
