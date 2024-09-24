@@ -19,7 +19,7 @@ if (doublevar < 60.0){
 printf("The double variable is less than 60.\n");
 }else{
 printf("The double variable in not less than 60.\n");}
-if(strcmp(stringvar, "hello")==0) {
+if (strcmp(stringvar, "hello")==0) {
 printf("String variable is hello.\n");
 }else {
 printf("String variable is not hello.\n");}
@@ -27,6 +27,7 @@ if (charvar !='s'){
 printf("Character variable does not equal to the letter 's'.\n");}
 else
 {
-printf("Character variable equals to 's'.\n");}
+printf("Character variable equals to 's'."); }
+  
   return EXIT_SUCCESS;
 }
